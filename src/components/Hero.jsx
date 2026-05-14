@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import heroImage from "../assets/fotos/img273.jpg";
+import heroImage from "../assets/fotos/streetwear_couple_01.webp";
 
 export default function Hero() {
   return (
