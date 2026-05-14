@@ -689,3 +689,13 @@ a {
     }
 
 }
+
+.about__container--full {
+    display: flex;
+    justify-content: center;
+}
+
+.about__container--full .about__content {
+    max-width: 760px;
+    text-align: center;
+}

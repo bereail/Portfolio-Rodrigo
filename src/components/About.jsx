@@ -1,17 +1,18 @@
-import sportModel01 from "../assets/fotos/sport_model_01.webp";
-
 export default function About() {
   return (
     <section id="sobre-mi" className="about">
-      <div className="container about__container">
-        <div className="about__image">
-          <img src={sportModel01} alt="Rodrigo Solohaga" />
-        </div>
+
+      <div className="container about__container about__container--full">
 
         <div className="about__content">
-          <span className="section-tag">Sobre mí</span>
 
-          <h2>La fotografía como forma de contar</h2>
+          <span className="section-tag">
+            Sobre mí
+          </span>
+
+          <h2>
+            La fotografía como forma de contar
+          </h2>
 
           <p>
             Soy Rodrigo Hernán Solohaga y hace más de 8 años encontré en la
@@ -27,8 +28,11 @@ export default function About() {
           <p>
             Cada sesión busca transmitir identidad, estética y autenticidad.
           </p>
+
         </div>
+
       </div>
+
     </section>
   );
 }
